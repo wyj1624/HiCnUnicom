@@ -49,7 +49,7 @@ jobs:
           run: |
            bash CnUnicom.sh
            
-           - name: Run 号码3
+         - name: Run 号码3
           env:
            haoma: ${{ secrets.HAOMA3 }}
            mm: ${{ secrets.MM3 }}
